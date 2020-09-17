@@ -25,7 +25,6 @@ def printHelpMenu():
     print('#varreduraPortas -TCP \t\t\t TCP do IP 127.0.0.1')
     print('#varreduraPortas -UDP \t\t\t UDP do IP 127.0.0.1')
     print('#varreduraPortas <endereco_ip> \t\t UDP e TCP do IP <endereco_ip>')
-    print('#varreduraPortas <endereco_ip> \t\t UDP e TCP do IP <endereco_ip>')
     print('#varreduraPortas <endereco_ip> -TCP \t TCP do IP <endereco_ip>')
     print('#varreduraPortas <endereco_ip> -UDP \t UDP do IP <endereco_ip>')
     print('exit \t\t\t\t\t Sair do programa')
