@@ -1,8 +1,8 @@
-# SNMP_NETSTAT_MIMIC
+# :star: SNMP_NETSTAT_MIMIC
 
 Programa que utiliza o SNMP para apresentar as portas em uso na rede dos protocolos UDP e TCP para o IP 127.0.0.1, por default, ou para um IP fornecido e que esteja com o SNMPD configurado.
 
-## Execução
+## :sparkles: Execução
 
 ```
 $ git clone https://github.com/paulacampigotto/snmp-netstat.git
@@ -10,7 +10,7 @@ $ cd snmp-netstat
 $ python3 snmp-netstat.py
 ```
 
-## Comandos do programa
+## :sparkles: Comandos do programa
 
 ```
 #varreduraPortas                           // TCP e UDP do localhost
@@ -21,4 +21,4 @@ $ python3 snmp-netstat.py
 #varreduraPortas <endereco_ip> -UDP        // UDP do ip <endereco_ip>
 ```
 
-
+obs: não foi feito tratamento de erros, então digite os comandos conforme indicado :stuck_out_tongue_closed_eyes: 
